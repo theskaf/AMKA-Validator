@@ -1,0 +1,96 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'AMKA Validator'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnResize = FormResize
+  DesignerMasterStyle = 0
+  object grpbGender: TGroupBox
+    Position.X = 186.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Text = ' '#934#973#955#959' '
+    TabOrder = 0
+    object rbMale: TRadioButton
+      Position.X = 10.000000000000000000
+      Position.Y = 22.000000000000000000
+      TabOrder = 36
+      Text = #902#957#964#961#945#962
+    end
+    object rbFemale: TRadioButton
+      IsChecked = True
+      Position.X = 144.000000000000000000
+      Position.Y = 22.000000000000000000
+      TabOrder = 38
+      Text = #915#965#957#945#943#954#945
+    end
+  end
+  object edtAMKA: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 196.000000000000000000
+    Position.Y = 149.000000000000000000
+    Size.Width = 254.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    OnKeyDown = edtAMKAKeyDown
+    OnKeyUp = edtAMKAKeyUp
+  end
+  object btnCalc: TButton
+    Position.X = 274.000000000000000000
+    Position.Y = 195.000000000000000000
+    Size.Width = 92.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #904#955#949#947#967#959#962
+    OnClick = btnCalcClick
+  end
+  object memoRes: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 80.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 481.000000000000000000
+    Size.Height = 169.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Viewport.Width = 477.000000000000000000
+    Viewport.Height = 165.000000000000000000
+  end
+  object lblBDate: TLabel
+    Position.X = 193.000000000000000000
+    Position.Y = 103.000000000000000000
+    Size.Width = 123.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = #919#956'. '#915#941#957#957#951#963#951#962
+    TabOrder = 4
+  end
+  object dtBDate: TDateEdit
+    Date = 45112.000000000000000000
+    Position.X = 330.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+  end
+  object btnExit: TButton
+    Position.X = 274.000000000000000000
+    Position.Y = 428.000000000000000000
+    Size.Width = 92.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = #904#958#959#948#959#962
+    OnClick = btnExitClick
+  end
+end

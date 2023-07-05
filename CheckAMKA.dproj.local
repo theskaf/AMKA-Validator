@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/19 08:51:03.000.382,=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/13 08:30:23.000.061,=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/13 18:19:35.000.788,=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/05 06:27:23.000.595,=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/05 06:29:25.000.170,E:\Utils\_All Languages_\Family Delphi\_All Projects_\_tmp-tests-here\AMKA Check\MainFrm.pas=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/05 06:29:25.000.170,E:\Utils\_All Languages_\Family Delphi\_All Projects_\_tmp-tests-here\AMKA Check\MainFrm.fmx=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/07/05 06:29:35.000.585,E:\Utils\_All Languages_\Family Delphi\_All Projects_\_tmp-tests-here\AMKA Check\CheckAMKA.dproj=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
